@@ -15,4 +15,4 @@ ADD cap_env.yml /tmp/environment.yml
 WORKDIR /home/metasub
 RUN conda env create -f=/tmp/environment.yml
 
-RUN pip install --ignore-installed PyYAML moduleultra==0.1.5"
+RUN pip install --ignore-installed PyYAML moduleultra==0.1.5
